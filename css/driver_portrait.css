@@ -79,6 +79,10 @@ body
 	overflow-y: scroll;
 }
 
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+
 
 
 #section_id
