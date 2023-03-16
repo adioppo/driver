@@ -1,6 +1,10 @@
 *{
   box-sizing: border-box;
 }
+
+*::-webkit-scrollbar {
+  display: none;
+}
 body
 {
 	margin:0px;
@@ -74,6 +78,8 @@ body
 	height:83vh;
 	overflow-y: scroll;
 }
+
+
 
 #section_id
 {
